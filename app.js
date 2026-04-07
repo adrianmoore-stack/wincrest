@@ -17,10 +17,7 @@ const app = express();
 app.use(express.static(`${__dirname}/public`));
 
 const corsOptions = {
-  origin: [
-    'http://localhost:3000',
-    'https://winbank-pearl.vercel.app/',
-  ],
+  origin: ['http://localhost:3000', 'https://winbank-pearl.vercel.app'],
   credentials: true,
 };
 
