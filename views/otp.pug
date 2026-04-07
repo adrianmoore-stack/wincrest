@@ -1,0 +1,17 @@
+extends baseEmail
+
+block content
+  p Hi #{firstName},
+  p A transaction token #{url}, was generated to complete your transaction. Please keep this token safe.
+  p If you did not initiate this transaction, please contact our customer service provider for assistance or initiate a password reset immediately.
+  table.btn.btn-primary(role='presentation', border='0', cellpadding='0', cellspacing='0')
+    //- tbody
+    //-   tr
+    //-     td(align='left')
+    //-       table(role='presentation', border='0', cellpadding='0', cellspacing='0')
+    //-         tbody
+    //-           tr
+    //-             td
+    //-               a(href='#', target='_blank') Upload user photo
+  p If you need any help, you can contact our customer service provider at support@wincrest.com.
+  p Wincres Trust
